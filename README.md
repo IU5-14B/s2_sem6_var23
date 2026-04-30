@@ -112,15 +112,16 @@ std::size_t size() const;
 - свободная функция `printDeferredMessage(std::string)`;
 - метод `Museum::addHall`;
 - метод `Museum::addItem`;
+- метод `Museum::showInfo`;
 - метод `Guide::addToRoute`;
 - метод `Visitor::setGuide`;
-- методы `Visitor::askGuideName`, `Guide::showRoute`,
-  `Museum::showInfo`, `Museum::showHalls`, `Museum::showCollection`;
+- метод `Visitor::askGuideName`;
 - проверка, что после добавления задач предметная область ещё не изменилась;
 - выполнение нескольких задач через `queue.run()`;
 - вывод размера очереди после каждого `run()`;
 - выполнение оставшихся задач через `queue.runAll()`;
-- итоговое состояние музея, маршрут гида и работа посетителя с гидом.
+- проверка, что очередь стала пустой;
+- краткое итоговое состояние музея, маршрута гида и посетителя.
 
 ## Структура проекта
 
